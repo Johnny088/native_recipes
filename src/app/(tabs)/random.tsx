@@ -11,3 +11,5 @@ export const RandomMealScreen = () => {
 const styles = StyleSheet.create({
   container: {},
 });
+
+export default RandomMealScreen;

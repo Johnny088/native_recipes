@@ -1,9 +1,9 @@
 import { StyleSheet, Text, View } from 'react-native';
 
-export const TabsLayout = () => {
+export const MealsScreen = () => {
   return (
     <View style={styles.container}>
-      <Text>TabsLayout</Text>
+      <Text>MealsScreen</Text>
     </View>
   );
 };
@@ -11,3 +11,5 @@ export const TabsLayout = () => {
 const styles = StyleSheet.create({
   container: {},
 });
+
+export default MealsScreen;

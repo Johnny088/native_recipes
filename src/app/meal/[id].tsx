@@ -1,6 +1,6 @@
 import { StyleSheet, Text, View } from 'react-native';
 
-export const Details = () => {
+const Details = () => {
   return (
     <View style={styles.container}>
       <Text>Details</Text>
@@ -11,3 +11,5 @@ export const Details = () => {
 const styles = StyleSheet.create({
   container: {},
 });
+
+export default Details;
